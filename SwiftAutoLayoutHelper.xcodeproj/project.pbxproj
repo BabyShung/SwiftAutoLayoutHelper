@@ -14,6 +14,7 @@
 		B80101791DCD009400B6984B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80101771DCD009400B6984B /* LaunchScreen.storyboard */; };
 		B80101841DCD009400B6984B /* SwiftAutoLayoutHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80101831DCD009400B6984B /* SwiftAutoLayoutHelperTests.swift */; };
 		B801018F1DCD009400B6984B /* SwiftAutoLayoutHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B801018E1DCD009400B6984B /* SwiftAutoLayoutHelperUITests.swift */; };
+		B801019F1DCD00D600B6984B /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B801019E1DCD00D600B6984B /* UIView+AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B801018A1DCD009400B6984B /* SwiftAutoLayoutHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAutoLayoutHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B801018E1DCD009400B6984B /* SwiftAutoLayoutHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAutoLayoutHelperUITests.swift; sourceTree = "<group>"; };
 		B80101901DCD009400B6984B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B801019E1DCD00D600B6984B /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B80101621DCD009400B6984B = {
 			isa = PBXGroup;
 			children = (
+				B801019E1DCD00D600B6984B /* UIView+AutoLayout.swift */,
 				B801016D1DCD009400B6984B /* SwiftAutoLayoutHelper */,
 				B80101821DCD009400B6984B /* SwiftAutoLayoutHelperTests */,
 				B801018D1DCD009400B6984B /* SwiftAutoLayoutHelperUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B80101711DCD009400B6984B /* ViewController.swift in Sources */,
+				B801019F1DCD00D600B6984B /* UIView+AutoLayout.swift in Sources */,
 				B801016F1DCD009400B6984B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
